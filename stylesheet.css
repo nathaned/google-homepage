@@ -12,26 +12,76 @@
 }
 
 #footer {
-  background:#e7e7e7;
-  height: 30px;
+  background:#f0f0f0;
+  height: 40px;
   position: absolute;
   bottom: 0px;
   width:100%;
   left: 0px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #dddddd;
 }
 
 #logo {
   margin-top:150px;
   width:100%;
+  margin-bottom: 20px;
 
 }
-input {
+
+#textbox {
+  width:600px;
+  font-size: 20px;
+}
+div > input {
+  font-size: 11px;
+  font-family: arial, sans-serif;
+  padding: 6px 8px 6px 8px;
+  border-radius: 2px;
+  font-weight: bold;
+  color:#444444;
+  background-color:
+  -moz-appearance:none;
+  margin-top: 15px;
+  border: 1px solid #cccccc;
+}
+div > input:first-of-type {
+  margin-right: 18px;
+}
+form {
+  display: inline-block;
+  text-align: center;
+}
+
+#block {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+
 }
-input:first-of-type {
-  margin-top: 10px;
-  width: 400px;
-  height: 25px;
+
+.bottomleft {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+  line-height: 40px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  display: inline;
+  color: #666666;
+}
+.bottomleft:first-of-type {
+  margin-right: -5px;
+}
+
+.bottomright {
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 30px;
+  line-height: 40px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  display: inline;
+  color: #666666;
+  float: right;
 }
